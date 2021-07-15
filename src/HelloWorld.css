@@ -6,3 +6,17 @@
   margin: 20px;
   padding: 20px;
 }
+
+.HelloWorldBtn {
+  border: 1x dashed red;
+  margin: 10px 5px;
+  padding: 15px;
+  color: red;
+  background: yellow;
+}
+
+.HelloWorldBtn:hover {
+  border: 1x solid yellow;
+  color: yellow;
+  background: red;
+}
