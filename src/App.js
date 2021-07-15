@@ -5,8 +5,8 @@ import HelloWorld from './HelloWorld'
 const App = () => {
   return (
     <div className = "App">
-      <HelloWorld />
-      <HelloWorld />
+      <HelloWorld name="Jim" surname="Brown" />
+      <HelloWorld name="Sally" surname="Green" />
     </div>
   )
 }
